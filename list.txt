@@ -1,0 +1,12 @@
+1. Input
+2. Number validity	    (Done)
+3. Get the number of digits (Done)
+4. Luhn's algorithm         (Done)
+5. Output
+
+
+-> Int to IntSlice  (Done)
+-> IntSlice to Int  (Done)
+
+-> Custom Error Types
+-> Modules
