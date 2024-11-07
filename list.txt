@@ -9,4 +9,4 @@
 -> IntSlice to Int  (Done)
 
 -> Custom Error Types
--> Modules
+-> Modules                  (Done)
