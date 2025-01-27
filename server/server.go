@@ -8,14 +8,15 @@ import (
 )
 
 // server implementation is still incomplete
-func run() {
+func Run() {
 
 	var addr string
-	flag.StringVar(&addr, "addr", "http://localhost:8080", "address flag")
+	flag.StringVar(&addr, "addr", "localhost:8080", "address flag")
 
+	mux := getRoutes()
 	s := http.Server{
 		Addr:        addr,
-		Handler:     nil,
+		Handler:     mux,
 		IdleTimeout: time.Minute * 1,
 	}
 
